@@ -23,8 +23,13 @@ $colorSelect: #F16D7F
   &__search
     margin-left: 41px
 
-  &__link:not(:last-child)
-    margin-right: 33px
+  &__link
+    display: inline-block
+    fill: #E8E8E8
+    &:not(:last-child)
+      margin-right: 33px
+    &:hover
+      fill: $colorSelect
 
 .promo
   background: #F1E4E6
@@ -44,7 +49,7 @@ $colorSelect: #F16D7F
 
   &__content
     margin-top: 40%
-    border-left: 12px solid #F16D7F
+    border-left: 12px solid $colorSelect
     padding-left: 16px
 
   &__heading
@@ -99,7 +104,9 @@ $colorSelect: #F16D7F
     text-align: center
 
 .product-box
-  padding-bottom: 66px
+  padding-bottom: 96px
+  display: flex
+  flex-direction: column
 
   &__heading
     +mainFont(30px, #222)
@@ -119,6 +126,22 @@ $colorSelect: #F16D7F
     display: flex
     flex-wrap: wrap
     justify-content: space-between
+
+    &_index
+      margin-bottom: 18px
+
+  &__button
+    display: inline-block
+    padding: 14px 38px
+    border: 1px solid #FF6A6A
+    +mainFont(16px, #F26376)
+    text-decoration: none
+    font-weight: normal
+    line-height: 19px
+    align-self: center
+    &:hover
+      background-color: $colorSelect
+      color: #fff
 
 .product
   width: 360px
@@ -143,6 +166,8 @@ $colorSelect: #F16D7F
     font-weight: normal
     line-height: 16px
     text-decoration: none
+    &:hover
+      color: $colorSelect
 
   &__text
     +mainFont(14px, #5d5d5d)
@@ -152,7 +177,7 @@ $colorSelect: #F16D7F
     margin-bottom: 18px
 
   &__price
-    +mainFont(16px, #F16D7F)
+    +mainFont(16px, $colorSelect)
     font-weight: normal
     line-height: 19px
 
@@ -218,14 +243,14 @@ $colorSelect: #F16D7F
     flex-direction: column
     align-items: center
 
-  &__left_img
-    padding-bottom: 30px
+    &_img
+      padding-bottom: 30px
 
-  &__left_text
-    +mainFont(20px, #222)
-    font-weight: normal
-    line-height: 24px
-    text-align: center
+    &_text
+      +mainFont(20px, #222)
+      font-weight: normal
+      line-height: 24px
+      text-align: center
 
   &__italic_text
     font-style: italic
@@ -266,7 +291,7 @@ $colorSelect: #F16D7F
     height: 49px
     border: none
     +mainFont(14px, #fff)
-    background-color: #F16D7F
+    background-color: $colorSelect
     border-bottom-right-radius: 22px
     border-top-right-radius: 22px
     outline: none
@@ -301,7 +326,7 @@ $colorSelect: #F16D7F
     background-color: #FFFFFF
     color: #000000
     &:hover
-      background-color: #F16D7F
+      background-color: $colorSelect
       color: #FFFFFF
 
   &__icon:not(:last-child)

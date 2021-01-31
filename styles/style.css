@@ -18,8 +18,13 @@
   justify-content: space-between; }
   .header__search {
     margin-left: 41px; }
-  .header__link:not(:last-child) {
-    margin-right: 33px; }
+  .header__link {
+    display: inline-block;
+    fill: #E8E8E8; }
+    .header__link:not(:last-child) {
+      margin-right: 33px; }
+    .header__link:hover {
+      fill: #F16D7F; }
 
 .promo {
   background: #F1E4E6;
@@ -94,7 +99,9 @@
     text-align: center; }
 
 .product-box {
-  padding-bottom: 66px; }
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: column; }
   .product-box__heading {
     font-family: Lato, serif;
     font-style: normal;
@@ -117,6 +124,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
+    .product-box__content_index {
+      margin-bottom: 18px; }
+  .product-box__button {
+    display: inline-block;
+    padding: 14px 38px;
+    border: 1px solid #FF6A6A;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #F26376;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 19px;
+    align-self: center; }
+    .product-box__button:hover {
+      background-color: #F16D7F;
+      color: #fff; }
 
 .product {
   width: 360px;
@@ -139,6 +163,8 @@
     font-weight: normal;
     line-height: 16px;
     text-decoration: none; }
+    .product__name:hover {
+      color: #F16D7F; }
   .product__text {
     font-family: Lato, serif;
     font-style: normal;
@@ -219,16 +245,16 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .subscribe__left_img {
-    padding-bottom: 30px; }
-  .subscribe__left_text {
-    font-family: Lato, serif;
-    font-style: normal;
-    font-size: 20px;
-    color: #222;
-    font-weight: normal;
-    line-height: 24px;
-    text-align: center; }
+    .subscribe__left_img {
+      padding-bottom: 30px; }
+    .subscribe__left_text {
+      font-family: Lato, serif;
+      font-style: normal;
+      font-size: 20px;
+      color: #222;
+      font-weight: normal;
+      line-height: 24px;
+      text-align: center; }
   .subscribe__italic_text {
     font-style: italic; }
   .subscribe__right {
