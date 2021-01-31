@@ -228,55 +228,77 @@ $colorSelect: #F16D7F
     font-weight: 300
     line-height: 17px
 
-.subscribe
-  height: 448px
-  background: url(../img/photosubscribe.png) bottom
-  background-size: cover
-  display: flex
-  &__left
-    width: 50%
 
-  &__right
-    width: 50%
+.subscribe
+  background: url("../img/photosubscribe.png") bottom left
+  background-size: cover
+  padding-top: 97px
+  padding-bottom: 156px
+  display: flex
+  align-items: flex-end
+  justify-content: space-between
+
+  &__left
+    width: 360px
     display: flex
     flex-direction: column
     align-items: center
-    justify-content: center
+
+  &__left_img
+    padding-bottom: 30px
+
+  &__left_text
+    +mainFont(20px, #222)
+    font-weight: normal
+    line-height: 24px
+    text-align: center
+
+  &__italic_text
+    font-style: italic
+
+  &__right
+    margin-right: 97px
+
+  &__right_text
+    +mainFont(18px, #222)
+    font-weight: 400
+    line-height: 30px
+    text-align: center
+    padding-bottom: 32px
+
+  &__bold_text
+    font-weight: 700
+    line-height: 38px
+    font-size: 24px
 
   &__form
     display: flex
+    justify-content: center
 
-  &__input
-    background: #E1E1E1
-    border-top-left-radius: 24px
-    border-bottom-left-radius: 24px
+  &__form_email
+    width: 234px
     height: 49px
-    width: 256px
     border: none
     outline: none
-    padding-left: 16px
+    background-color: #E1E1E1
+    border-bottom-left-radius: 22px
+    border-top-left-radius: 22px
+    +mainFont(14px, #222)
+    padding-left: 22px
     box-sizing: border-box
 
-  &__button
-    background: $colorSelect
+  &__form_button
     width: 100px
     height: 49px
-    border-top-right-radius: 24px
-    border-bottom-right-radius: 24px
     border: none
+    +mainFont(14px, #fff)
+    background-color: #F16D7F
+    border-bottom-right-radius: 22px
+    border-top-right-radius: 22px
     outline: none
-    font-family: Lato
-    font-style: normal
-    font-weight: normal
-    font-size: 14px
-    line-height: 17px
-    display: flex
-    align-items: center
-    justify-content: center
-    color: #FFFFFF
-    &:hover
-      background: $colorSelect - #111
 
+    &:hover
+      background-color: $colorSelect - #111
 
 //&__right_text
   //  +mainFont(18px, #222)
@@ -318,54 +340,6 @@ $colorSelect: #F16D7F
   //
   //  &:hover
   //    background-color: $colorSelect - #111
-.subscribe
-  height: 448px
-  background: url(img/photosubscribe.jpg) bottom
-  background-size: cover
-  display: flex
-  &__left
-    width: 50%
-
-  &__right
-    width: 50%
-    display: flex
-    flex-direction: column
-    align-items: center
-    justify-content: center
-
-  &__form
-    display: flex
-
-  &__input
-    background: #E1E1E1
-    border-top-left-radius: 24px
-    border-bottom-left-radius: 24px
-    height: 49px
-    width: 256px
-    border: none
-    outline: none
-    padding-left: 16px
-    box-sizing: border-box
-
-  &__button
-    background: $colorSelect
-    width: 100px
-    height: 49px
-    border-top-right-radius: 24px
-    border-bottom-right-radius: 24px
-    border: none
-    outline: none
-    font-family: Lato
-    font-style: normal
-    font-weight: normal
-    font-size: 14px
-    line-height: 17px
-    display: flex
-    align-items: center
-    justify-content: center
-    color: #FFFFFF
-    &:hover
-      background: $colorSelect - #111
 
 
 .footer
