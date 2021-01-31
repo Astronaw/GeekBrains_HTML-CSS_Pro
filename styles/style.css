@@ -51,9 +51,8 @@
     color: #222;
     font-weight: bold;
     line-height: 58px; }
-
-.select {
-  color: #F16D7F; }
+    .promo__info_select {
+      color: #F16D7F; }
 
 .sale {
   padding-top: 64px;
@@ -93,6 +92,88 @@
     font-weight: bold;
     line-height: 29px;
     text-align: center; }
+
+.product-box {
+  padding-bottom: 66px; }
+  .product-box__heading {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 30px;
+    color: #222;
+    font-weight: normal;
+    line-height: 36px;
+    text-align: center; }
+  .product-box__text {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #9f9f9f;
+    font-weight: normal;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 6px; }
+  .product-box__content {
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+.product {
+  width: 360px;
+  background: #F8F8F8;
+  margin-bottom: 30px;
+  position: relative; }
+  .product:hover .product__img {
+    filter: brightness(50%); }
+  .product:hover .product__add {
+    display: flex; }
+  .product__img {
+    width: 100%; }
+  .product__content {
+    padding: 24px 16px 20px; }
+  .product__name {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #000;
+    font-weight: normal;
+    line-height: 16px;
+    text-decoration: none; }
+  .product__text {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #5d5d5d;
+    font-weight: 300;
+    line-height: 17px;
+    margin-top: 12px;
+    margin-bottom: 18px; }
+  .product__price {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #F16D7F;
+    font-weight: normal;
+    line-height: 19px; }
+  .product__add {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 139px;
+    height: 44px;
+    border: 1px solid #fff;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 17px;
+    text-decoration: none;
+    position: absolute;
+    top: 188px;
+    left: 111px; }
+    .product__add:hover {
+      box-shadow: 0 0 5px #fff; }
 
 .offer {
   display: flex;

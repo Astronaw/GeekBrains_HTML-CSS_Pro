@@ -29,7 +29,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Ruby30-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,7 +48,10 @@
       <workItem from="1611171437195" duration="741000" />
       <workItem from="1611172262241" duration="5847000" />
       <workItem from="1611251509135" duration="26115000" />
-      <workItem from="1611879092933" duration="2687000" />
+      <workItem from="1611879092933" duration="2810000" />
+      <workItem from="1612024949035" duration="2030000" />
+      <workItem from="1612089223132" duration="2000" />
+      <workItem from="1612090735931" duration="8123000" />
     </task>
     <servers />
   </component>
@@ -60,5 +68,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="Homework" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Homework" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>

@@ -23,9 +23,6 @@ $colorSelect: #F16D7F
   &__search
     margin-left: 41px
 
-  &__link
-    co
-
   &__link:not(:last-child)
     margin-right: 33px
 
@@ -60,8 +57,8 @@ $colorSelect: #F16D7F
     font-weight: bold
     line-height: 58px
 
-.select
-  color: $colorSelect
+    &_select
+      color: $colorSelect
 
 .sale
   padding-top: 64px
@@ -100,6 +97,81 @@ $colorSelect: #F16D7F
     font-weight: bold
     line-height: 29px
     text-align: center
+
+.product-box
+  padding-bottom: 66px
+
+  &__heading
+    +mainFont(30px, #222)
+    font-weight: normal
+    line-height: 36px
+    text-align: center
+
+  &__text
+    +mainFont(14px, #9f9f9f)
+    font-weight: normal
+    line-height: 17px
+    text-align: center
+    margin-top: 6px
+
+  &__content
+    padding-top: 48px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+.product
+  width: 360px
+  background: #F8F8F8
+  margin-bottom: 30px
+  position: relative
+
+  &:hover &__img
+    filter: brightness(50%)
+
+  &:hover &__add
+    display: flex
+
+  &__img
+    width: 100%
+
+  &__content
+    padding: 24px 16px 20px
+
+  &__name
+    +mainFont(13px, #000)
+    font-weight: normal
+    line-height: 16px
+    text-decoration: none
+
+  &__text
+    +mainFont(14px, #5d5d5d)
+    font-weight: 300
+    line-height: 17px
+    margin-top: 12px
+    margin-bottom: 18px
+
+  &__price
+    +mainFont(16px, #F16D7F)
+    font-weight: normal
+    line-height: 19px
+
+  &__add
+    display: none
+    justify-content: center
+    align-items: center
+    width: 139px
+    height: 44px
+    border: 1px solid #fff
+    +mainFont(14px, #fff)
+    font-weight: normal
+    line-height: 17px
+    text-decoration: none
+    position: absolute
+    top: 188px
+    left: 111px
+    &:hover
+      box-shadow: 0 0 5px #fff
 
 .offer
   display: flex
