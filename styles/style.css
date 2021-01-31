@@ -233,76 +233,30 @@
     line-height: 17px; }
 
 .subscribe {
-  background-image: url("/img/subscribe-bg.png");
+  height: 448px;
+  background: url(../img/photosubscribe.png) bottom;
   background-size: cover;
-  padding-top: 97px;
-  padding-bottom: 156px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between; }
+  display: flex; }
   .subscribe__left {
-    width: 360px;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    .subscribe__left_img {
-      padding-bottom: 30px; }
-    .subscribe__left_text {
-      font-family: Lato, serif;
-      font-style: normal;
-      font-size: 20px;
-      color: #222;
-      font-weight: normal;
-      line-height: 24px;
-      text-align: center; }
-  .subscribe__italic_text {
-    font-style: italic; }
-  .subscribe__right {
-    margin-right: 97px; }
-  .subscribe__right_text {
-    font-family: Lato, serif;
-    font-style: normal;
-    font-size: 18px;
-    color: #222;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    padding-bottom: 32px; }
-  .subscribe__bold_text {
-    font-weight: 700;
-    line-height: 38px;
-    font-size: 24px; }
-  .subscribe__form {
-    display: flex;
+    align-items: center;
     justify-content: center; }
-  .subscribe__form_email {
-    width: 234px;
-    height: 49px;
-    border: none;
-    outline: none;
-    background-color: #E1E1E1;
-    border-bottom-left-radius: 22px;
-    border-top-left-radius: 22px;
+  .subscribe__quote {
+    margin-top: 30px;
+    width: 360px;
     font-family: Lato, serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 20px;
     color: #222;
-    padding-left: 22px;
-    box-sizing: border-box; }
-  .subscribe__form_button {
-    width: 100px;
-    height: 49px;
-    border: none;
-    font-family: Lato, serif;
-    font-style: normal;
-    font-size: 14px;
-    color: #fff;
-    background-color: #F16D7F;
-    border-bottom-right-radius: 22px;
-    border-top-right-radius: 22px;
-    outline: none; }
-    .subscribe__form_button:hover {
-      background-color: #e05c6e; }
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center; }
+    .subscribe__quote_italic {
+      font-style: italic; }
+  .subscribe__right {
+    width: 50%; }
 
 .footer {
   padding-top: 30px;
