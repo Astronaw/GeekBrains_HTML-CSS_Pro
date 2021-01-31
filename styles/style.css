@@ -238,25 +238,89 @@
   background-size: cover;
   display: flex; }
   .subscribe__left {
+    width: 50%; }
+  .subscribe__right {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-  .subscribe__quote {
-    margin-top: 30px;
-    width: 360px;
-    font-family: Lato, serif;
+  .subscribe__form {
+    display: flex; }
+  .subscribe__input {
+    background: #E1E1E1;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    height: 49px;
+    width: 256px;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+    box-sizing: border-box; }
+  .subscribe__button {
+    background: #F16D7F;
+    width: 100px;
+    height: 49px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: none;
+    outline: none;
+    font-family: Lato;
     font-style: normal;
-    font-size: 20px;
-    color: #222;
     font-weight: normal;
-    line-height: 24px;
-    text-align: center; }
-    .subscribe__quote_italic {
-      font-style: italic; }
-  .subscribe__right {
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF; }
+    .subscribe__button:hover {
+      background: #e05c6e; }
+
+.subscribe {
+  height: 448px;
+  background: url(img/photosubscribe.jpg) bottom;
+  background-size: cover;
+  display: flex; }
+  .subscribe__left {
     width: 50%; }
+  .subscribe__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .subscribe__form {
+    display: flex; }
+  .subscribe__input {
+    background: #E1E1E1;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    height: 49px;
+    width: 256px;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+    box-sizing: border-box; }
+  .subscribe__button {
+    background: #F16D7F;
+    width: 100px;
+    height: 49px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: none;
+    outline: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF; }
+    .subscribe__button:hover {
+      background: #e05c6e; }
 
 .footer {
   padding-top: 30px;
