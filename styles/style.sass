@@ -1,0 +1,337 @@
+@import "mixins"
+
+$siteWidth: 1140px
+$colorSelect: #f16d7f
+
+*
+  margin: 0
+  padding: 0
+
+.container
+  max-width: $siteWidth
+  margin: 0 auto
+
+.center
+  padding-left: calc(50% - #{$siteWidth / 2})
+  padding-right: calc(50% - #{$siteWidth / 2})
+
+.header
+  background: #222
+  height: 75px
+  +flexCB()
+
+  &__search
+    margin-left: 41px
+
+  &__link
+    display: inline-block
+    fill: #E8E8E8
+    &:not(:last-child)
+      margin-right: 33px
+    &:hover
+      fill: $colorSelect
+      //filter: drop-shadow(0 0 5px $colorSelect)
+
+.promo
+  background: #F1E4E6
+  display: flex
+  padding-left: calc(50% - 800px)
+  padding-right: calc(50% - 800px)
+
+  &__img
+    width: 50%
+    display: flex
+
+  &__photo
+    width: 100%
+
+  &__text
+    width: 50%
+
+  &__content
+    margin-top: 40%
+    border-left: 12px solid $colorSelect
+    padding-left: 16px
+
+  &__heading
+    +mainFont(48px, #222)
+    font-weight: 900
+    line-height: 58px
+
+  &__info
+    +mainFont(48px, #222)
+    font-weight: bold
+    line-height: 58px
+
+    &_select
+      color: $colorSelect
+
+.sale
+  padding-top: 64px
+  padding-bottom: 96px
+
+  &__top
+    display: flex
+    padding-bottom: 30px
+
+  &__img
+    width: 100%
+
+  &__item
+    position: relative
+
+  &__text
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    +flexCenter
+    flex-direction: column
+
+  &__item:not(:last-child)
+    margin-right: 30px
+
+  &__p
+    +mainFont(16px, #fff)
+    font-weight: normal
+    line-height: 19px
+    text-align: center
+
+  &__heading
+    +mainFont(24px, $colorSelect)
+    font-weight: bold
+    line-height: 29px
+    text-align: center
+
+.product-box
+  padding-bottom: 96px
+  display: flex
+  flex-direction: column
+
+  &__heading
+    +mainFont(30px, #222)
+    font-weight: normal
+    line-height: 36px
+    text-align: center
+
+  &__text
+    +mainFont(14px, #9f9f9f)
+    font-weight: normal
+    line-height: 17px
+    text-align: center
+    margin-top: 6px
+
+  &__content
+    padding-top: 48px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+    &_index
+      margin-bottom: 18px
+
+  &__button
+    display: inline-block
+    padding: 14px 38px
+    border: 1px solid #FF6A6A
+    +mainFont(16px, #F26376)
+    text-decoration: none
+    font-weight: normal
+    line-height: 19px
+    align-self: center
+    &:hover
+      background-color: $colorSelect
+      color: #fff
+
+.product
+  width: 360px
+  background: #F8F8F8
+  margin-bottom: 30px
+  position: relative
+
+  &:hover &__img
+    filter: brightness(50%)
+
+  &:hover &__add
+    display: flex
+
+  &__img
+    width: 100%
+
+  &__content
+    padding: 24px 16px 20px
+
+  &__name
+    +mainFont(13px, #000)
+    font-weight: normal
+    line-height: 16px
+    text-decoration: none
+    &:hover
+      color: $colorSelect
+
+  &__text
+    +mainFont(14px, #5d5d5d)
+    font-weight: 300
+    line-height: 17px
+    margin-top: 12px
+    margin-bottom: 18px
+
+  &__price
+    +mainFont(16px, $colorSelect)
+    font-weight: normal
+    line-height: 19px
+
+  &__add
+    display: none
+    justify-content: center
+    align-items: center
+    width: 139px
+    height: 44px
+    border: 1px solid #fff
+    +mainFont(14px, #fff)
+    font-weight: normal
+    line-height: 17px
+    text-decoration: none
+    position: absolute
+    top: 188px
+    left: 111px
+    &:hover
+      box-shadow: 0 0 5px #fff
+
+.offer
+  display: flex
+  justify-content: space-between
+  background: #222
+
+  &__item
+    width: 360px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  &__img
+    padding-top: 104px
+    height: 100%
+
+  &__content
+    text-align: center
+    padding: 24px 16px 104px
+
+  &__heading
+    +mainFont(20px, #FBFBFB)
+    font-weight: normal
+    line-height: 24px
+
+  &__text
+    margin-top: 16px
+    +mainFont(14px, #FBFBFB)
+    font-weight: 300
+    line-height: 17px
+
+.subscribe
+  background: url("../img/photosubscribe.png") bottom left
+  background-size: cover
+  padding-top: 97px
+  padding-bottom: 156px
+  display: flex
+  align-items: flex-end
+  justify-content: space-between
+
+  &__left
+    width: 360px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  &__left_img
+    padding-bottom: 30px
+
+  &__left_text
+    +mainFont(20px, #222)
+    font-weight: normal
+    line-height: 24px
+    text-align: center
+
+  &__italic_text
+    font-style: italic
+
+  &__right
+    margin-right: 97px
+
+  &__right_text
+    +mainFont(18px, #222)
+    font-weight: 400
+    line-height: 30px
+    text-align: center
+    padding-bottom: 32px
+
+  &__bold_text
+    font-weight: 700
+    line-height: 38px
+    font-size: 24px
+
+  &__form
+    display: flex
+    justify-content: center
+
+  &__form_email
+    width: 234px
+    height: 49px
+    border: none
+    outline: none
+    background-color: #E1E1E1
+    border-bottom-left-radius: 22px
+    border-top-left-radius: 22px
+    +mainFont(14px, #222)
+    padding-left: 22px
+    box-sizing: border-box
+
+  &__form_button
+    width: 100px
+    height: 49px
+    border: none
+    +mainFont(14px, #fff)
+    background-color: #F16D7F
+    border-bottom-right-radius: 22px
+    border-top-right-radius: 22px
+    outline: none
+    cursor: pointer
+
+    &:hover
+      background-color: $colorSelect - #111
+
+.footer
+  padding-top: 30px
+  padding-bottom: 30px
+  background-color: #222224
+  display: flex
+  justify-content: space-between
+
+  &__copyright
+    +mainFont(16px, #FBFBFB)
+    line-height: 19px
+    align-self: center
+
+  &__links
+    display: flex
+
+    & a
+      text-decoration: none
+
+  &__icon
+    width: 32px
+    height: 32px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #FFFFFF
+    color: #000000
+    &:hover
+      background-color: $colorSelect
+      color: #FFFFFF
+
+  &__icon:not(:last-child)
+    margin-right: 8px
+
+@import "catalog"

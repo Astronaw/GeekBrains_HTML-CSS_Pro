@@ -1,0 +1,88 @@
+.page-info
+  height: 148px
+  background-color: #F8F3F4
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  &__text
+    +mainFont(24px, $colorSelect)
+    line-height: 29px
+
+  &__breadcrumbs
+    display: flex
+
+  &__link
+    +mainFont(14px, #636363)
+    font-weight: 300
+    line-height: 17px
+    text-decoration: none
+    &:hover
+      color: $colorSelect
+    &:not(:last-child):after
+      content: "/"
+      color: #636363
+      padding-left: 5px
+      padding-right: 5px
+    &:last-child
+      font-weight: 700
+      color: $colorSelect
+
+.pages-list
+  display: flex
+  align-self: center
+  justify-content: space-between
+  align-items: center
+  padding: 12px 16px
+  margin-top: 18px
+  border: 1px solid #EBEBEB
+  border-radius: 5px
+  width: 283px
+
+  &__cursor
+    display: flex
+    &:hover
+      fill: $colorSelect
+
+  &__page
+    text-decoration: none
+    +mainFont(16px, #C9C9C9)
+    font-weight: 300
+    line-height: 19px
+    &:hover
+      color: #EF5B70
+
+    &_select
+      color: #EF5B70
+
+summary
+  display: block
+  outline: none
+
+  &::-webkit-details-marker
+    display: none
+
+.sort-box
+  padding-top: 52px
+  padding-bottom: 16px
+  &__filter
+    position: relative
+
+.filter
+  &__category
+    padding-left: 11px
+    padding-left: 11px
+    +mainFont(14PX, $colorSelect)
+    line-height: 37px
+    border-left: 5px solid $colorSelect
+
+  &__ul
+    list-style-type: none
+    padding-top: 24px
+    padding-left: 12px
+  &__link
+    +mainFont(14px, #6F6E6E)
+    line-height: 17px
+    text-decoration: none
+    &:hover
+      color: $colorSelect
