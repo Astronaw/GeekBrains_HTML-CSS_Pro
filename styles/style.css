@@ -24,7 +24,7 @@
     .header__link:not(:last-child) {
       margin-right: 33px; }
     .header__link:hover {
-      fill: #F16D7F; }
+      fill: #f16d7f; }
 
 .promo {
   background: #F1E4E6;
@@ -40,7 +40,7 @@
     width: 50%; }
   .promo__content {
     margin-top: 40%;
-    border-left: 12px solid #F16D7F;
+    border-left: 12px solid #f16d7f;
     padding-left: 16px; }
   .promo__heading {
     font-family: Lato, serif;
@@ -57,7 +57,7 @@
     font-weight: bold;
     line-height: 58px; }
     .promo__info_select {
-      color: #F16D7F; }
+      color: #f16d7f; }
 
 .sale {
   padding-top: 64px;
@@ -93,7 +93,7 @@
     font-family: Lato, serif;
     font-style: normal;
     font-size: 24px;
-    color: #F16D7F;
+    color: #f16d7f;
     font-weight: bold;
     line-height: 29px;
     text-align: center; }
@@ -139,7 +139,7 @@
     line-height: 19px;
     align-self: center; }
     .product-box__button:hover {
-      background-color: #F16D7F;
+      background-color: #f16d7f;
       color: #fff; }
 
 .product {
@@ -164,7 +164,7 @@
     line-height: 16px;
     text-decoration: none; }
     .product__name:hover {
-      color: #F16D7F; }
+      color: #f16d7f; }
   .product__text {
     font-family: Lato, serif;
     font-style: normal;
@@ -178,7 +178,7 @@
     font-family: Lato, serif;
     font-style: normal;
     font-size: 16px;
-    color: #F16D7F;
+    color: #f16d7f;
     font-weight: normal;
     line-height: 19px; }
   .product__add {
@@ -300,7 +300,8 @@
     background-color: #F16D7F;
     border-bottom-right-radius: 22px;
     border-top-right-radius: 22px;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
     .subscribe__form_button:hover {
       background-color: #e05c6e; }
 
@@ -330,9 +331,104 @@
     background-color: #FFFFFF;
     color: #000000; }
     .footer__icon:hover {
-      background-color: #F16D7F;
+      background-color: #f16d7f;
       color: #FFFFFF; }
   .footer__icon:not(:last-child) {
     margin-right: 8px; }
+
+.page-info {
+  height: 148px;
+  background-color: #F8F3F4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .page-info__text {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #f16d7f;
+    line-height: 29px; }
+  .page-info__breadcrumbs {
+    display: flex; }
+  .page-info__link {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #636363;
+    font-weight: 300;
+    line-height: 17px;
+    text-decoration: none; }
+    .page-info__link:hover {
+      color: #f16d7f; }
+    .page-info__link:not(:last-child):after {
+      content: "/";
+      color: #636363;
+      padding-left: 5px;
+      padding-right: 5px; }
+    .page-info__link:last-child {
+      font-weight: 700;
+      color: #f16d7f; }
+
+.pages-list {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  margin-top: 18px;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  width: 283px; }
+  .pages-list__cursor {
+    display: flex; }
+    .pages-list__cursor:hover {
+      fill: #f16d7f; }
+  .pages-list__page {
+    text-decoration: none;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #C9C9C9;
+    font-weight: 300;
+    line-height: 19px; }
+    .pages-list__page:hover {
+      color: #EF5B70; }
+    .pages-list__page_select {
+      color: #EF5B70; }
+
+summary {
+  display: block;
+  outline: none; }
+  summary::-webkit-details-marker {
+    display: none; }
+
+.sort-box {
+  padding-top: 52px;
+  padding-bottom: 16px; }
+  .sort-box__filter {
+    position: relative; }
+
+.filter__category {
+  padding-left: 11px;
+  padding-left: 11px;
+  font-family: Lato, serif;
+  font-style: normal;
+  font-size: 14PX;
+  color: #f16d7f;
+  line-height: 37px;
+  border-left: 5px solid #f16d7f; }
+.filter__ul {
+  list-style-type: none;
+  padding-top: 24px;
+  padding-left: 12px; }
+.filter__link {
+  font-family: Lato, serif;
+  font-style: normal;
+  font-size: 14px;
+  color: #6F6E6E;
+  line-height: 17px;
+  text-decoration: none; }
+  .filter__link:hover {
+    color: #f16d7f; }
 
 /*# sourceMappingURL=style.css.map */

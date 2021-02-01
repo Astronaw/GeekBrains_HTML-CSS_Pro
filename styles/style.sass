@@ -1,7 +1,7 @@
 @import "mixins"
 
 $siteWidth: 1140px
-$colorSelect: #F16D7F
+$colorSelect: #f16d7f
 
 *
   margin: 0
@@ -30,6 +30,7 @@ $colorSelect: #F16D7F
       margin-right: 33px
     &:hover
       fill: $colorSelect
+      //filter: drop-shadow(0 0 5px $colorSelect)
 
 .promo
   background: #F1E4E6
@@ -228,7 +229,6 @@ $colorSelect: #F16D7F
     font-weight: 300
     line-height: 17px
 
-
 .subscribe
   background: url("../img/photosubscribe.png") bottom left
   background-size: cover
@@ -296,51 +296,10 @@ $colorSelect: #F16D7F
     border-bottom-right-radius: 22px
     border-top-right-radius: 22px
     outline: none
+    cursor: pointer
 
     &:hover
       background-color: $colorSelect - #111
-
-//&__right_text
-  //  +mainFont(18px, #222)
-  //  font-weight: 400
-  //  line-height: 30px
-  //  text-align: center
-  //  padding-bottom: 32px
-  //
-  //&__bold_text
-  //  font-weight: 700
-  //  line-height: 38px
-  //  font-size: 24px
-  //
-  //&__form
-  //  display: flex
-  //  justify-content: center
-  //
-  //&__form_email
-  //  width: 234px
-  //  height: 49px
-  //  border: none
-  //  outline: none
-  //  background-color: #E1E1E1
-  //  border-bottom-left-radius: 22px
-  //  border-top-left-radius: 22px
-  //  +mainFont(14px, #222)
-  //  padding-left: 22px
-  //  box-sizing: border-box
-  //
-  //&__form_button
-  //  width: 100px
-  //  height: 49px
-  //  border: none
-  //  +mainFont(14px, #fff)
-  //  background-color: $colorSelect
-  //  border-bottom-right-radius: 22px
-  //  border-top-right-radius: 22px
-  //  outline: none
-  //
-  //  &:hover
-  //    background-color: $colorSelect - #111
-
 
 .footer
   padding-top: 30px
@@ -374,3 +333,5 @@ $colorSelect: #F16D7F
 
   &__icon:not(:last-child)
     margin-right: 8px
+
+@import "catalog"
