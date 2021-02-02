@@ -63,26 +63,73 @@ summary
     display: none
 
 .sort-box
-  padding-top: 52px
-  padding-bottom: 16px
+  padding-top: 34px
+  padding-bottom: 68px
+  //padding-top: 52px
+  //padding-bottom: 16px
+
   &__filter
     position: relative
 
 .filter
+  padding: 13px 16px 0 0
+  position: absolute
+  z-index: 1
+  cursor: pointer
+
+  &__details
+    margin-bottom: 16px
+
+  &__name
+    +mainFont(14px, #000)
+    font-weight: 600
+    line-height: 17px
+
+    &:hover
+      color: $colorSelect
+      & .filter__img
+        fill: $colorSelect
+
+  &__img
+    margin-left: 11px
+
   &__category
-    padding-left: 11px
     padding-left: 11px
     +mainFont(14PX, $colorSelect)
     line-height: 37px
     border-left: 5px solid $colorSelect
+    border-bottom: 1px solid #EBEBEB
+    &:hover
+      border-bottom-color: #EBEBEB -#111
+      font-weight: 600
 
   &__ul
     list-style-type: none
     padding-top: 24px
     padding-left: 12px
+
+  &__li
+    margin-bottom: 11px
+    &:last-child
+      margin-bottom: 24px
+
   &__link
     +mainFont(14px, #6F6E6E)
     line-height: 17px
     text-decoration: none
     &:hover
       color: $colorSelect
+
+  &[open]
+    width: 360px
+    box-sizing: border-box
+    background: #FFFFFF
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+    padding-left: 16px
+
+    & .filter__name
+      color: #EF5B70
+      margin-bottom: 16px
+
+    & .filter__img
+      fill: #EF5B70
