@@ -403,13 +403,13 @@ summary {
     display: none; }
 
 .sort-box {
-  padding-top: 34px;
-  padding-bottom: 68px; }
+  padding-top: 51px;
+  padding-bottom: 81px; }
   .sort-box__filter {
     position: relative; }
 
 .filter {
-  padding: 13px 16px 0 0;
+  padding: 13px 16px 16px;
   position: absolute;
   z-index: 1;
   cursor: pointer; }
