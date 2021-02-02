@@ -411,8 +411,7 @@ summary {
 .filter {
   padding: 13px 16px 16px;
   position: absolute;
-  z-index: 1;
-  cursor: pointer; }
+  z-index: 1; }
   .filter__details {
     margin-bottom: 16px; }
   .filter__name {
@@ -421,7 +420,8 @@ summary {
     font-size: 14px;
     color: #000;
     font-weight: 600;
-    line-height: 17px; }
+    line-height: 17px;
+    cursor: pointer; }
     .filter__name:hover {
       color: #f16d7f; }
       .filter__name:hover .filter__img {
