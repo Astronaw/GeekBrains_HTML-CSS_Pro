@@ -63,32 +63,35 @@ summary
     display: none
 
 .sort-box
-  padding-top: 51px
-  padding-bottom: 81px
+  display: flex
+  margin-top: 51px
+  margin-bottom: 64px
+
   &__filter
+    width: 360px
+    margin-right: 30px
     position: relative
 
+  &__option
+    display: flex
+
 .filter
-  padding: 13px 16px 16px
+  width: fit-content
   position: absolute
   z-index: 1
-
-
-  &__details
-    margin-bottom: 16px
 
   &__name
     +mainFont(14px, #000)
     font-weight: 600
     line-height: 17px
     cursor: pointer
-    &:hover
-      color: $colorSelect
-      & .filter__img
-        fill: $colorSelect
 
   &__img
+    fill: #000000
     margin-left: 11px
+
+  &__details
+    margin-bottom: 16px
 
   &__category
     padding-left: 11px
@@ -123,7 +126,8 @@ summary
     box-sizing: border-box
     background: #FFFFFF
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
-    padding-left: 16px
+    padding: 13px 16px 0 16px
+    top: -13px
 
     & .filter__name
       color: #EF5B70
@@ -131,3 +135,45 @@ summary
 
     & .filter__img
       fill: #EF5B70
+
+
+.option
+  margin-right: 28px
+  position: relative
+
+  &__name
+    +mainFont(14px, #6F6E6E)
+    line-height: 17px
+    cursor: pointer
+
+  &__img
+    margin-left: 10px
+    fill: #6F6E6E
+
+  &__list
+    position: absolute
+    display: flex
+    flex-direction: column
+    z-index: 1
+    background: #FFFFFF
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+    padding: 0 9px 12px
+    width: max-content
+    margin-top: 5px
+    +mainFont(14px, #6F6E6E)
+    line-height: 16px
+    left: -9px
+
+
+  &__label
+    display: flex
+    align-items: center
+    margin-top: 9px
+
+  &__text
+    margin-left: 9px
+    &_capitalize
+      text-transform: capitalize
+
+
+

@@ -403,17 +403,20 @@ summary {
     display: none; }
 
 .sort-box {
-  padding-top: 51px;
-  padding-bottom: 81px; }
+  display: flex;
+  margin-top: 51px;
+  margin-bottom: 64px; }
   .sort-box__filter {
+    width: 360px;
+    margin-right: 30px;
     position: relative; }
+  .sort-box__option {
+    display: flex; }
 
 .filter {
-  padding: 13px 16px 16px;
+  width: fit-content;
   position: absolute;
   z-index: 1; }
-  .filter__details {
-    margin-bottom: 16px; }
   .filter__name {
     font-family: Lato, serif;
     font-style: normal;
@@ -422,12 +425,11 @@ summary {
     font-weight: 600;
     line-height: 17px;
     cursor: pointer; }
-    .filter__name:hover {
-      color: #f16d7f; }
-      .filter__name:hover .filter__img {
-        fill: #f16d7f; }
   .filter__img {
+    fill: #000000;
     margin-left: 11px; }
+  .filter__details {
+    margin-bottom: 16px; }
   .filter__category {
     padding-left: 11px;
     font-family: Lato, serif;
@@ -463,11 +465,50 @@ summary {
     box-sizing: border-box;
     background: #FFFFFF;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-    padding-left: 16px; }
+    padding: 13px 16px 0 16px;
+    top: -13px; }
     .filter[open] .filter__name {
       color: #EF5B70;
       margin-bottom: 16px; }
     .filter[open] .filter__img {
       fill: #EF5B70; }
+
+.option {
+  margin-right: 28px;
+  position: relative; }
+  .option__name {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #6F6E6E;
+    line-height: 17px;
+    cursor: pointer; }
+  .option__img {
+    margin-left: 10px;
+    fill: #6F6E6E; }
+  .option__list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    padding: 0 9px 12px;
+    width: max-content;
+    margin-top: 5px;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #6F6E6E;
+    line-height: 16px;
+    left: -9px; }
+  .option__label {
+    display: flex;
+    align-items: center;
+    margin-top: 9px; }
+  .option__text {
+    margin-left: 9px; }
+    .option__text_capitalize {
+      text-transform: capitalize; }
 
 /*# sourceMappingURL=style.css.map */
