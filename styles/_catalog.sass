@@ -63,26 +63,117 @@ summary
     display: none
 
 .sort-box
-  padding-top: 52px
-  padding-bottom: 16px
+  display: flex
+  margin-top: 51px
+  margin-bottom: 64px
+
   &__filter
+    width: 360px
+    margin-right: 30px
     position: relative
 
+  &__option
+    display: flex
+
 .filter
+  width: fit-content
+  position: absolute
+  z-index: 1
+
+  &__name
+    +mainFont(14px, #000)
+    font-weight: 600
+    line-height: 17px
+    cursor: pointer
+
+  &__img
+    fill: #000000
+    margin-left: 11px
+
+  &__details
+    margin-bottom: 16px
+
   &__category
-    padding-left: 11px
     padding-left: 11px
     +mainFont(14PX, $colorSelect)
     line-height: 37px
     border-left: 5px solid $colorSelect
+    border-bottom: 1px solid #EBEBEB
+    cursor: pointer
+    &:hover
+      border-bottom-color: #EBEBEB -#111
+      font-weight: 600
 
   &__ul
     list-style-type: none
     padding-top: 24px
     padding-left: 12px
+
+  &__li
+    margin-bottom: 11px
+    &:last-child
+      margin-bottom: 24px
+
   &__link
     +mainFont(14px, #6F6E6E)
     line-height: 17px
     text-decoration: none
     &:hover
       color: $colorSelect
+
+  &[open]
+    width: 360px
+    box-sizing: border-box
+    background: #FFFFFF
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+    padding: 13px 16px 0 16px
+    top: -13px
+
+    & .filter__name
+      color: #EF5B70
+      margin-bottom: 16px
+
+    & .filter__img
+      fill: #EF5B70
+
+
+.option
+  margin-right: 28px
+  position: relative
+
+  &__name
+    +mainFont(14px, #6F6E6E)
+    line-height: 17px
+    cursor: pointer
+
+  &__img
+    margin-left: 10px
+    fill: #6F6E6E
+
+  &__list
+    position: absolute
+    display: flex
+    flex-direction: column
+    z-index: 1
+    background: #FFFFFF
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+    padding: 0 9px 12px
+    width: max-content
+    margin-top: 5px
+    +mainFont(14px, #6F6E6E)
+    line-height: 16px
+    left: -9px
+
+
+  &__label
+    display: flex
+    align-items: center
+    margin-top: 9px
+
+  &__text
+    margin-left: 9px
+    &_capitalize
+      text-transform: capitalize
+
+
+
