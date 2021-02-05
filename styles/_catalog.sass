@@ -85,6 +85,10 @@ summary
     font-weight: 600
     line-height: 17px
     cursor: pointer
+    &:hover
+      color: $colorSelect
+      & .filter__img
+        fill: $colorSelect
 
   &__img
     fill: #000000
@@ -92,6 +96,8 @@ summary
 
   &__details
     margin-bottom: 16px
+
+
 
   &__category
     padding-left: 11px
@@ -144,6 +150,10 @@ summary
     +mainFont(14px, #6F6E6E)
     line-height: 17px
     cursor: pointer
+    &:hover
+      color: #6F6E6E - #666
+      & .option__img
+        fill: #6F6E6E - #666
 
   &__img
     margin-left: 10px
