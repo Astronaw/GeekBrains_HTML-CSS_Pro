@@ -294,6 +294,7 @@
     font-size: 14px;
     color: #222;
     padding-left: 22px;
+    padding-right: 22px;
     box-sizing: border-box; }
   .subscribe__form_button {
     width: 100px;
@@ -563,12 +564,12 @@ summary {
     padding-top: 64px;
     padding-bottom: 64px; }
   .product-info__category {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 14px;
-    line-height: 17px;
-    color: #F16D7F; }
+    color: #F16D7F;
+    font-weight: 300;
+    line-height: 17px; }
   .product-info__separator {
     width: 63px;
     height: 3px;
@@ -576,27 +577,27 @@ summary {
     margin-bottom: 12px;
     margin-top: 12px; }
   .product-info__name {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 18px;
-    line-height: 22px;
-    color: #4D4D4D; }
-  .product-info__text {
-    font-family: Lato;
-    font-style: normal;
+    color: #4D4D4D;
     font-weight: 300;
+    line-height: 22px; }
+  .product-info__text {
+    font-family: Lato, serif;
+    font-style: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #5E5E5E;
+    font-weight: 300;
+    line-height: 17px;
     text-align: center;
     padding: 48px 43px 32px; }
   .product-info__price {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 24px;
+    color: #EF5B70;
+    font-weight: 300;
     line-height: 29px;
     color: #EF5B70; }
   .product-info__button {
@@ -645,12 +646,12 @@ summary {
     padding: 16px 40px;
     border: 1px solid #A4A4A4;
     background: #FFFFFF;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 14px;
+    color: #000;
+    font-weight: 300;
     line-height: 17px;
-    color: #000000;
     outline: none; }
     .cart__button:hover {
       color: #FFFFFF;
@@ -690,30 +691,27 @@ summary {
     border: 1px solid #EAEAEA;
     margin-left: 24px;
     outline: none;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
     color: #656565;
+    line-height: 22px;
     text-align: center; }
   .checked-product__heading {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: normal;
     font-size: 24px;
+    color: #222;
     line-height: 29px;
-    color: #222222;
     margin-bottom: 42px; }
     .checked-product__heading:hover {
       color: #f16d7f; }
   .checked-product__text {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: normal;
     font-size: 22px;
-    line-height: 26px;
-    color: #575757; }
+    color: #575757;
+    line-height: 26px; }
     .checked-product__text:not(:last-child) {
       margin-bottom: 6px; }
     .checked-product__text_select {
@@ -732,25 +730,26 @@ summary {
   justify-content: space-around;
   margin-bottom: 40px; }
   .address__heading {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 16px;
-    line-height: 19px;
-    color: #222222; }
+    color: #222;
+    font-weight: 300;
+    line-height: 19px; }
   .address__input {
     width: 360px;
     height: 45px;
     background: #FFFFFF;
     border: 1px solid #A4A4A4;
     outline: none;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 13px;
+    color: #222;
+    font-weight: 300;
     line-height: 16px;
-    color: #222222;
     padding-left: 17px;
+    padding-right: 17px;
     box-sizing: border-box; }
     .address__input:focus {
       border-color: #f16d7f; }
@@ -759,12 +758,12 @@ summary {
     .address__input_select::placeholder {
       color: #222222; }
   .address__button {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 11px;
-    line-height: 13px;
     color: #4A4A4A;
+    font-weight: 300;
+    line-height: 13px;
     outline: none;
     padding: 10px 15px;
     border: 1px solid #A4A4A4;
@@ -791,23 +790,22 @@ summary {
   height: 214px;
   box-sizing: border-box; }
   .checkout__sub {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: normal;
     font-size: 11px;
-    line-height: 13px;
     color: #4A4A4A;
+    line-height: 13px;
     margin-right: 34px;
     margin-bottom: 12px; }
     .checkout__sub_price {
       margin-left: 20px; }
   .checkout__grand {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 16px;
+    color: #222;
+    font-weight: 300;
     line-height: 19px;
-    color: #222222;
     margin-right: 37px;
     margin-bottom: 21px; }
     .checkout__grand_price {
@@ -821,12 +819,12 @@ summary {
     margin-bottom: 17px;
     align-self: center; }
   .checkout__button {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
-    font-weight: 300;
     font-size: 16px;
+    color: #fff;
+    font-weight: 300;
     line-height: 19px;
-    color: #FFFFFF;
     background: #F16D7F;
     outline: none;
     border: none;

@@ -17,13 +17,16 @@
     font-weight: 300
     line-height: 17px
     text-decoration: none
+
     &:hover
       color: $colorSelect
+
     &:not(:last-child):after
       content: "/"
       color: #636363
       padding-left: 5px
       padding-right: 5px
+
     &:last-child
       font-weight: 700
       color: $colorSelect
@@ -41,6 +44,7 @@
 
   &__cursor
     display: flex
+
     &:hover
       fill: $colorSelect
 
@@ -49,6 +53,7 @@
     +mainFont(16px, #C9C9C9)
     font-weight: 300
     line-height: 19px
+
     &:hover
       color: #EF5B70
 
@@ -85,8 +90,10 @@ summary
     font-weight: 600
     line-height: 17px
     cursor: pointer
+
     &:hover
       color: $colorSelect
+
       & .filter__img
         fill: $colorSelect
 
@@ -98,7 +105,6 @@ summary
     margin-bottom: 16px
 
 
-
   &__category
     padding-left: 11px
     +mainFont(14PX, $colorSelect)
@@ -106,6 +112,7 @@ summary
     border-left: 5px solid $colorSelect
     border-bottom: 1px solid #EBEBEB
     cursor: pointer
+
     &:hover
       border-bottom-color: #EBEBEB -#111
       font-weight: 600
@@ -117,6 +124,7 @@ summary
 
   &__li
     margin-bottom: 11px
+
     &:last-child
       margin-bottom: 24px
 
@@ -124,6 +132,7 @@ summary
     +mainFont(14px, #6F6E6E)
     line-height: 17px
     text-decoration: none
+
     &:hover
       color: $colorSelect
 
@@ -150,8 +159,10 @@ summary
     +mainFont(14px, #6F6E6E)
     line-height: 17px
     cursor: pointer
+
     &:hover
       color: #6F6E6E - #666
+
       & .option__img
         fill: #6F6E6E - #666
 
@@ -182,6 +193,7 @@ summary
 
   &__text
     margin-left: 9px
+
     &_capitalize
       text-transform: capitalize
 
