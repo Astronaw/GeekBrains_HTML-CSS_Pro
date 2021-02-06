@@ -442,6 +442,7 @@ summary {
 
 .filter {
   width: fit-content;
+  width: -moz-fit-content;
   position: absolute;
   z-index: 1; }
   .filter__name {
@@ -906,7 +907,8 @@ input:focus:-ms-input-placeholder {
   margin-right: 128px; }
 
 .address_registration {
-  height: fit-content; }
+  height: fit-content;
+  height: -moz-fit-content; }
 
 .checkout__button_registration {
   padding: 16px 29px;

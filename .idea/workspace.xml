@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac8982e-6420-4683-a2fa-c9a0f3536da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/_keyframes.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_catalog.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_catalog.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/style.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_registration.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_registration.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_catalog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_catalog.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_registration.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_registration.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,8 @@
       <workItem from="1612523837382" duration="3833000" />
       <workItem from="1612550402411" duration="1034000" />
       <workItem from="1612629852499" duration="8962000" />
-      <workItem from="1612639755732" duration="3072000" />
+      <workItem from="1612639755732" duration="3227000" />
+      <workItem from="1612643588523" duration="1269000" />
     </task>
     <servers />
   </component>
