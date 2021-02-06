@@ -872,4 +872,81 @@ input:focus:-ms-input-placeholder {
   transition: all 0.7s ease;
   opacity: 0; }
 
+.cart_registration {
+  margin-top: 64px;
+  margin-bottom: 96px; }
+
+.cart__form_registration {
+  margin-right: 128px; }
+
+.address_registration {
+  height: fit-content; }
+
+.checkout__button_registration {
+  padding: 16px 29px;
+  align-self: flex-start; }
+
+.arrow-right {
+  fill: #FFF;
+  margin-left: 20px; }
+
+.password-text {
+  font-family: Lato, serif;
+  font-style: normal;
+  font-size: 13;
+  color: #B1B1B1;
+  font-weight: 300;
+  line-height: 16px;
+  margin-top: 16px;
+  margin-bottom: 40px; }
+
+.address__heading_registration {
+  margin-bottom: 20px; }
+
+.address__input_registration {
+  margin-bottom: 21px; }
+
+.radio-box {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px; }
+  .radio-box__label {
+    padding-left: 10px;
+    margin-right: 20px;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #000;
+    font-weight: 300;
+    line-height: 13px; }
+
+.reg-info {
+  font-family: Lato, serif;
+  font-style: normal;
+  font-size: 24px;
+  color: #000;
+  line-height: 29px;
+  font-weight: 300; }
+  .reg-info__heading {
+    padding-bottom: 22px;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #000;
+    font-weight: 300; }
+  .reg-info__list {
+    list-style-type: none; }
+  .reg-info__text {
+    position: relative;
+    padding-bottom: 16px;
+    padding-left: 43px; }
+    .reg-info__text:before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 16px;
+      top: 8px;
+      left: 0;
+      background-image: url("../img/check-mark.svg"); }
+
 /*# sourceMappingURL=style.css.map */
