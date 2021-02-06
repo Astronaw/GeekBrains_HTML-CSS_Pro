@@ -104,6 +104,9 @@ summary
   &__details
     margin-bottom: 16px
 
+    &[open] .filter__ul
+      animation: slide-in-top 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
 
   &__category
     padding-left: 11px
@@ -151,9 +154,18 @@ summary
     & .filter__img
       fill: #EF5B70
 
+    & .filter__name
+      animation: bounce-right 0.8s both
+
+    & .filter__details
+      animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+
 .option
   margin-right: 28px
   position: relative
+
+  &[open] .option__list
+    animation: fade-in 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
 
   &__name
     +mainFont(14px, #6F6E6E)
