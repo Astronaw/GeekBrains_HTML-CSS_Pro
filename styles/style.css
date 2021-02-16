@@ -1013,6 +1013,10 @@ input:focus:-ms-input-placeholder {
 
   .product {
     margin-bottom: 16px; }
+    .product:last-child {
+      display: none; }
+    .product:nth-child(even):last-child {
+      display: block; }
 
   .offer {
     flex-direction: column;

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05739de-7f02-4ad1-ad00-a5ae2837dbc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Homework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/316f30aed7b39d9fc4255c6d0d767a13d728bcff/_media.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/316f30aed7b39d9fc4255c6d0d767a13d728bcff/_media.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613498280672</updated>
       <workItem from="1613498282063" duration="10745000" />
+      <workItem from="1613511746065" duration="1315000" />
     </task>
     <servers />
   </component>
@@ -68,5 +67,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
