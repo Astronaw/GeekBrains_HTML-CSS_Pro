@@ -89,7 +89,8 @@
   .sale__img {
     width: 100%; }
   .sale__item {
-    position: relative; }
+    position: relative;
+    display: flex; }
   .sale__text {
     position: absolute;
     top: 0;
@@ -976,5 +977,64 @@ input:focus:-ms-input-placeholder {
       top: 8px;
       left: 0;
       background-image: url("../img/check-mark.svg"); }
+
+@media (max-width: 1023px) {
+  .header__left {
+    margin-left: 16px; }
+
+  .header__right {
+    margin-right: 16px; }
+
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px); }
+
+  .promo__heading {
+    font-size: 44px;
+    line-height: 53px; }
+
+  .promo__info {
+    font-size: 24px;
+    line-height: 29px; }
+
+  .sale {
+    padding-top: 20px;
+    padding-bottom: 154px; }
+    .sale__top {
+      padding-bottom: 20px; }
+    .sale__item:not(:last-child) {
+      margin-right: 20px; }
+
+  .product-box {
+    padding-bottom: 65px; }
+    .product-box__content_index {
+      padding-top: 72px;
+      margin-bottom: 32px; }
+
+  .product {
+    margin-bottom: 16px; }
+
+  .offer {
+    flex-direction: column;
+    align-items: center; }
+    .offer__img {
+      padding-top: 48px; }
+    .offer__content {
+      padding-bottom: 0; }
+    .offer__item:last-child {
+      padding-bottom: 64px; }
+
+  .subscribe {
+    background-position-x: 25%;
+    padding-top: 64px;
+    padding-bottom: 140px;
+    flex-direction: column;
+    align-items: center; }
+    .subscribe__left {
+      margin-bottom: 48px; }
+    .subscribe__right {
+      margin-right: 0; }
+      .subscribe__right_text {
+        padding-bottom: 27px; } }
 
 /*# sourceMappingURL=style.css.map */

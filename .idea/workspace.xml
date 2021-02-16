@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ac8982e-6420-4683-a2fa-c9a0f3536da3" name="Default Changelist" comment="">
+    <list default="true" id="d05739de-7f02-4ad1-ad00-a5ae2837dbc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/styles/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Homework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_catalog.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_catalog.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_registration.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/694892a4056149caab1ff570c5ea10545e901092/_registration.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_catalog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_catalog.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_registration.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_registration.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Sass File" />
       </list>
     </option>
@@ -30,60 +28,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1nLZfRc1pxXxcehF9ragRtBfcAd" />
+  <component name="ProjectId" id="1oZdvefMoBtaVQ6ooaKqo5Lc7Tn" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
-    <property name="node.js.detected.package.stylelint" value="true" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.selected.package.stylelint" value="" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Дмитрий\Desktop\GB\4. Профессиональная верстка\Homework\styles" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0ac8982e-6420-4683-a2fa-c9a0f3536da3" name="Default Changelist" comment="" />
-      <created>1611171436002</created>
+      <changelist id="d05739de-7f02-4ad1-ad00-a5ae2837dbc8" name="Default Changelist" comment="" />
+      <created>1613498280672</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611171436002</updated>
-      <workItem from="1611171437195" duration="741000" />
-      <workItem from="1611172262241" duration="5847000" />
-      <workItem from="1611251509135" duration="26115000" />
-      <workItem from="1611879092933" duration="2810000" />
-      <workItem from="1612024949035" duration="2030000" />
-      <workItem from="1612089223132" duration="2000" />
-      <workItem from="1612090735931" duration="8123000" />
-      <workItem from="1612113007368" duration="10600000" />
-      <workItem from="1612125623922" duration="292000" />
-      <workItem from="1612126273603" duration="1030000" />
-      <workItem from="1612194707131" duration="14942000" />
-      <workItem from="1612277433590" duration="10272000" />
-      <workItem from="1612288172123" duration="64000" />
-      <workItem from="1612366540874" duration="20387000" />
-      <workItem from="1612455332017" duration="14482000" />
-      <workItem from="1612503850119" duration="13091000" />
-      <workItem from="1612517271311" duration="6492000" />
-      <workItem from="1612523837382" duration="3833000" />
-      <workItem from="1612550402411" duration="1034000" />
-      <workItem from="1612629852499" duration="8962000" />
-      <workItem from="1612639755732" duration="3227000" />
-      <workItem from="1612643588523" duration="1269000" />
+      <updated>1613498280672</updated>
+      <workItem from="1613498282063" duration="10745000" />
     </task>
     <servers />
   </component>
@@ -100,15 +68,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="Homework" type="b2602c69:ProjectViewProjectNode" />
-        <item name="Homework" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
   </component>
 </project>
