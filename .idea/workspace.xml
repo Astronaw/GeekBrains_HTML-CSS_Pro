@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d05739de-7f02-4ad1-ad00-a5ae2837dbc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/.sass-cache/316f30aed7b39d9fc4255c6d0d767a13d728bcff/_media.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/316f30aed7b39d9fc4255c6d0d767a13d728bcff/_media.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
@@ -39,7 +40,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=".header__link:not(:last-child)" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,6 +58,7 @@
       <updated>1613498280672</updated>
       <workItem from="1613498282063" duration="10745000" />
       <workItem from="1613511746065" duration="1315000" />
+      <workItem from="1613582726115" duration="4605000" />
     </task>
     <servers />
   </component>
